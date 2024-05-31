@@ -15,93 +15,58 @@
     <script>
 
 
+const num=parseInt(prompt(`Input Any Number`));
 
-//NOTE: TO SEE OUTPUT OF CODE    , 1ST COMMENT OUT OTHER PRACTICE CODE WHOSE OUTPUT IS NOT YOU ARE CHECK 
+switch(num)
+{
+    case 1:
+        document.write(`one`);
+        break;
+    case 2: 
+     document.write(`two`);
+         break;
+    case 3:
+    document.write(`three`);
+    break;
 
+    case 4: 
+    document.write(`Four`);
+    break;
 
-//1.ternary operator
+    case 5: 
+    document.write(`five`);
+ break;
 
-const input=prompt(`Enter number `);
-input%2==0 ? console.log(`the number is: Even  ${input}`): console.log(`the number is: odd  ${input}`);
+    case 6: 
+    document.write( `six`);
+ break;
 
-
-//eligiblity check for Credut card;
-
-const age=prompt(`Enter your age`);
-age>=21 ? console.log(`You are eligible for Credit card`) :console.log(`You are not eligible for Credit card`) 
  
+    case 7:
+        document.write (`seven 777DHONI`);
+        break;
+
+    case 8: 
+        document.write(`eight`);
+ break;
 
 
+    case 9: 
+   document.write(`Nine`);
+break;
 
-
-
-     //2.if
-
-
-const Presenty =prompt(`students present`);
-
-if(Presenty<30)
-{
-console.log("Student Presenty in Class Is Less Than 100% Attendence")
-
-}
-
-
-
-//3. if___else
-
-const Presenty =prompt(`students present`);
-
-if(Presenty<30)
-{
-console.log("Student Presenty in Class Is Less Than 100% Attendence");
-
-}
-else
-{
-    console.log(" All Student Present in Class ");
-}
+default: 
+document.write(`Something Went Wrong....! ,
+Try After Sometime `);
+break ;
 
 
 
 
 
 
+        
 
-//4. if__else ladder
-
-const Presenty =prompt(`students present`);
-
-if(Presenty<30)
-{
-console.log("Student Presenty in Class Is Less Than 100% Attendence");
-
-}
-else if (Presenty>30)
-{
-    console.log("Invalid input ");
-
-}
-else
-{
-    console.log(" All Student Present in Class ");
-}
-
-
-
-
-
-
-// Luck Check Example
-
-const num=parseInt(prompt("Try Your Luck By Entering Any Number"));
-
-if(num==16)
-{
-    console.log("You Are winner!");
-}
-else{
-    console.log("BAD LUCK Better Luck Next Time!");
 }
 
 
